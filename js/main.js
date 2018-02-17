@@ -14,6 +14,17 @@
             location.href = url;          
             //window.location.href = this.src + '.php';
         });
-    });
 
- 
+        $('.card a').click(function(){
+            var $temp = $("<textarea>");
+            $("body").append($temp);
+            var $element = $(this).parent().parent();
+
+            var $copyText = $element.find(".tamil-card-text").text() + "\n\n" +
+                            $element.find(".english-card-text").text() + "\n\n" +
+                            $element.find(".ref-card-text").text();
+            $temp.val($copyText).select();
+            document.execCommand("copy");
+            $temp.remove();
+        });
+    });

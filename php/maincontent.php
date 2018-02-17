@@ -41,16 +41,17 @@
 		        <div class="col-md-8 col-md-offset-2">
 		            <div class="card">
 		                <div class="card-action">
-		                  	<a href="#" ><span class="glyphicon glyphicon-share-alt"></span></a>
+		                  	<a href="#" data-toggle="tooltip" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+		                  	<a href="#" data-toggle="tooltip" title="Copy to Clipboard!"><span class="glyphicon glyphicon-copy"></span></a>
 		                </div>
 		                <hr>
 		                <div class="card-content">
-		                    <p class="card-text">'.$value['ContentTamil'].'</p>
+		                    <p class="tamil-card-text">'.$value['ContentTamil'].'</p>
 		                    <br>
 		                    <br>
-				    		<p class="card-text">'.$value['ContentEnglish'].'</p>
+				    		<p class="english-card-text">'.$value['ContentEnglish'].'</p>
 				    		<hr>
-				    		<p class="card-text" id="reference_text"><b>Reference:</b> '.$value['Reference'].'</p>
+				    		<p class="ref-card-text" id="reference_text"><b>Reference:</b> '.$value['Reference'].'</p>
 		                </div>
 		            </div>
 		        </div>

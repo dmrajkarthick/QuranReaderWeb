@@ -32,7 +32,6 @@
       <ul class="nav navbar-nav">
           <li><a href="http://localhost/quranapp/">Home</a></li>
         <li><a href="#">Random Hadith</a></li>
-        <li><a href="#">Last Read</a></li>
         <li><a href="#">Settings</a></li>
       </ul>
       <!-- <form class="navbar-form navbar-left">
@@ -42,8 +41,8 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form> -->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-download"></span> Download App</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Feedback</a></li>
+        <li><a href="https://rkinsideout.blogspot.in/" target="_blank"><span class="glyphicon glyphicon-download"></span> Download App</a></li>
+        <li><a href="http://www.aravindmaya.com/" target="_blank"><span class="glyphicon glyphicon-pencil"></span> Feedback</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
